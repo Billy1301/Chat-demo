@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AuthVC.swift
 //  Chat
 //
 //  Created by Billy on 11/6/17.
@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FBSDKLoginKit
 
-class ViewController: UIViewController {
-
+class AuthVC: UIViewController {
+    
+    @IBOutlet weak var facebookBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +27,3 @@ class ViewController: UIViewController {
 
 
 }
-
